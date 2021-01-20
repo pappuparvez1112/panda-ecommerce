@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>panda-ecommerce</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="container">
@@ -18,9 +18,9 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">shoes</a>
-            <a class="nav-link" href="#">bags</a>
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">subscribe</a>
+            <a class="nav-link" href="#shoe">shoes</a>
+            <a class="nav-link" href="#bag">bags</a>
+            <a class="nav-link" href="#subscribe" tabindex="-1" aria-disabled="true">subscribe</a>
           </div>
         </div>
       </div>
@@ -94,7 +94,7 @@
 
   <main class="container" >
     <section class="px-4 mt-5">
-      <div class="row g-5 ">
+      <div class="row g-5 categories ">
         <div class="col">
          <div class="p-3 rounded bg-primary d-flex align-items-center justify-content-around ">
            <h1>Watch</h1>
@@ -119,11 +119,11 @@
 
     <!-- card part -->
     <!-- shoe part -->
-    <section class="mt-5">
+    <section id="shoe" class="mt-5">
       <h3>Shoe</h3>
-          <div class="row row-cols-1 row-cols-md-3 g-4 panda-card">
+          <div class="row row-cols-1 row-cols-md-3 g-4 ">
         <div class="col">
-          <div class="card h-100 shadow">
+          <div class="card h-100 shadow panda-card">
             <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">supply 350</h5>
@@ -131,13 +131,13 @@
               <h4>$200</h4>
               
             </div>
-            <div class="card-footer">
+            <div class="card-footer panda-card-footer">
               <button type="button" class="btn btn-warning">Buy now >></button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100 shadow">
+          <div class="card h-100 shadow panda-card">
             <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">nikke 120</h5>
@@ -145,13 +145,13 @@
               <h4>$300</h4>
               
             </div>
-            <div class="card-footer">
+            <div class="panda-card-footer card-footer">
               <button type="button" class="btn btn-warning">Buy now >></button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100 shadow">
+          <div class="card h-100 shadow panda-card">
             <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">apex 400</h5>
@@ -159,7 +159,7 @@
               <h4>$500</h4>
               
             </div>
-            <div class="card-footer">
+            <div class="card-footer panda-card-footer">
               <button type="button" class="btn btn-warning">Buy now >></button>
             </div>
           </div>
@@ -170,11 +170,11 @@
 
     <!-- bag part -->
 
-    <section class="mt-5">
+    <section id="bag" class="mt-5">
       <h3>Bag</h3>
           <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card h-100 shadow">
+          <div class=" panda-card card h-100 shadow">
             <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">supply 350</h5>
@@ -183,13 +183,13 @@
               
               
             </div>
-            <div class="card-footer">
+            <div class="card-footer panda-card-footer">
               <button type="button" class="btn btn-warning">Buy now >></button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100 shadow">
+          <div class="panda-card card h-100 shadow">
             <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">nikke 120</h5>
@@ -198,13 +198,13 @@
               
               
             </div>
-            <div class="card-footer">
+            <div class="card-footer panda-card-footer">
               <button type="button" class="btn btn-warning">Buy now >></button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100 shadow">
+          <div class="panda-card card h-100 shadow">
             <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">apex 400</h5>
@@ -213,7 +213,7 @@
               
               
             </div>
-            <div class="card-footer">
+            <div class="card-footer panda-card-footer">
               <button type="button" class="btn btn-warning">Buy now >></button>
             </div>
           </div>
@@ -221,7 +221,10 @@
         
       </div>
     </section>
-    <section style="height:300px;" class=" bg-warning d-flex justify-content-center align-items-center mt-5">
+    
+    <!-- last part -->
+
+    <section id="subscribe" style="height:300px;" class=" new-last-part d-flex justify-content-center align-items-center mt-5 last-part">
       <div>
         <h1>lets stay in touch</h1>
       <p> gets upadate on sales ,specials and more</p>

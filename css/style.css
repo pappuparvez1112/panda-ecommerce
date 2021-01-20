@@ -1,3 +1,13 @@
 .panda-slider .carousel-item{
     background-color:#fceae8;
 }
+.categories img{
+    width:100px;
+    
+}
+.categories h1{
+    color:white;
+}
+.panda-card{
+    border:0;
+}

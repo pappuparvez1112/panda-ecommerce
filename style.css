@@ -1,3 +1,33 @@
 .panda-slider .carousel-item{
     background-color:#fceae8;
 }
+.categories img{
+    width:100px;
+    
+}
+.categories h1{
+    color:white;
+}
+.panda-card{
+    border:0;
+}
+.panda-card-footer{
+    background-color:white;
+    border:0;
+}
+.last-part{
+    border-radius:10px;
+    
+
+}
+.last-part h1{
+    text-transform:uppercase;
+}
+.last-part input{
+    padding-bottom:5px;
+
+    
+}
+.new-last-part{
+    background-color:darksalmon;
+}
